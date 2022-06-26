@@ -1,7 +1,7 @@
 {
   "name": "debugger-for-zen",
   "displayName": "Debugger for Zen",
-  "version": "0.50.0",
+  "version": "0.6.0",
   "publisher": "ms-vscode",
   "description": "ZenScript debugger for Visual Studio Code",
   "author": {

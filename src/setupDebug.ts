@@ -17,6 +17,11 @@ export function setupDebug(context: ExtensionContext, config: WorkspaceConfigura
 		configInternalDAP(context);
 	}
 
+
+	vscode.debug.onDidReceiveDebugSessionCustomEvent(e => {
+		
+	});
+
 }
 function configExternalDAP(context: ExtensionContext, config: WorkspaceConfiguration) {
 	const hostName = config.get('external.hostName') as string;
